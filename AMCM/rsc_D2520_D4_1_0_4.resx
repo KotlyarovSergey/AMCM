@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PPPoA_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;DslCpeConfig version="3.0"&gt;
+  &lt;InternetGatewayDevice&gt;
+    &lt;LANDeviceNumberOfEntries&gt;1&lt;/LANDeviceNumberOfEntries&gt;
+    &lt;WANDeviceNumberOfEntries&gt;1&lt;/WANDeviceNumberOfEntries&gt;
+    &lt;DeviceInfo&gt;
+      &lt;FirstUseDate&gt;0001-01-01T00:00:00Z&lt;/FirstUseDate&gt;
+      &lt;VendorConfigFileNumberOfEntries&gt;0&lt;/VendorConfigFileNumberOfEntries&gt;
+      &lt;ConfigCounter&gt;2&lt;/ConfigCounter&gt;
+    &lt;/DeviceInfo&gt;
+    &lt;X_BROADCOM_COM_EthernetSwitch&gt;
+      &lt;NumberOfVirtualPorts&gt;0&lt;/NumberOfVirtualPorts&gt;
+      &lt;IfName&gt;eth1&lt;/IfName&gt;
+    &lt;/X_BROADCOM_COM_EthernetSwitch&gt;
+    &lt;Layer2Bridging&gt;
+      &lt;BridgeNumberOfEntries&gt;1&lt;/BridgeNumberOfEntries&gt;
+      &lt;FilterNumberOfEntries&gt;2&lt;/FilterNumberOfEntries&gt;
+      &lt;MarkingNumberOfEntries&gt;0&lt;/MarkingNumberOfEntries&gt;
+      &lt;AvailableInterfaceNumberOfEntries&gt;2&lt;/AvailableInterfaceNumberOfEntries&gt;
+      &lt;Bridge instance="1"&gt;
+        &lt;BridgeKey&gt;0&lt;/BridgeKey&gt;
+        &lt;BridgeEnable&gt;TRUE&lt;/BridgeEnable&gt;
+        &lt;BridgeName&gt;Default&lt;/BridgeName&gt;
+      &lt;/Bridge&gt;
+      &lt;Bridge nextInstance="2" &gt;&lt;/Bridge&gt;
+      &lt;Filter instance="1"&gt;
+        &lt;FilterKey&gt;1&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;1&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter instance="2"&gt;
+        &lt;FilterKey&gt;2&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;2&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter nextInstance="3" &gt;&lt;/Filter&gt;
+      &lt;AvailableInterface instance="1"&gt;
+        &lt;AvailableInterfaceKey&gt;1&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface instance="2"&gt;
+        &lt;AvailableInterfaceKey&gt;2&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface nextInstance="3" &gt;&lt;/AvailableInterface&gt;
+    &lt;/Layer2Bridging&gt;
+    &lt;QueueManagement&gt;
+      &lt;ClassificationNumberOfEntries&gt;0&lt;/ClassificationNumberOfEntries&gt;
+      &lt;AppNumberOfEntries&gt;0&lt;/AppNumberOfEntries&gt;
+      &lt;FlowNumberOfEntries&gt;0&lt;/FlowNumberOfEntries&gt;
+      &lt;PolicerNumberOfEntries&gt;0&lt;/PolicerNumberOfEntries&gt;
+      &lt;QueueNumberOfEntries&gt;0&lt;/QueueNumberOfEntries&gt;
+    &lt;/QueueManagement&gt;
+    &lt;LANDevice instance="1"&gt;
+      &lt;LANEthernetInterfaceNumberOfEntries&gt;1&lt;/LANEthernetInterfaceNumberOfEntries&gt;
+      &lt;LANUSBInterfaceNumberOfEntries&gt;1&lt;/LANUSBInterfaceNumberOfEntries&gt;
+      &lt;LANWLANConfigurationNumberOfEntries&gt;0&lt;/LANWLANConfigurationNumberOfEntries&gt;
+      &lt;X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;0&lt;/X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;
+      &lt;LANHostConfigManagement&gt;
+        &lt;DHCPServerEnable&gt;TRUE&lt;/DHCPServerEnable&gt;
+        &lt;IPInterfaceNumberOfEntries&gt;1&lt;/IPInterfaceNumberOfEntries&gt;
+        &lt;IPInterface instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;br0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/IPInterface&gt;
+        &lt;IPInterface nextInstance="2" &gt;&lt;/IPInterface&gt;
+      &lt;/LANHostConfigManagement&gt;
+      &lt;LANEthernetInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;eth0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANEthernetInterfaceConfig nextInstance="2" &gt;&lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;usb0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANUSBInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig nextInstance="2" &gt;&lt;/LANUSBInterfaceConfig&gt;
+    &lt;/LANDevice&gt;
+    &lt;LANDevice nextInstance="2" &gt;&lt;/LANDevice&gt;
+    &lt;WANDevice instance="1"&gt;
+      &lt;WANConnectionNumberOfEntries&gt;1&lt;/WANConnectionNumberOfEntries&gt;
+      &lt;WANCommonInterfaceConfig&gt;
+        &lt;WANAccessType&gt;DSL&lt;/WANAccessType&gt;
+      &lt;/WANCommonInterfaceConfig&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="1"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="2"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="3"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="4"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" &gt;&lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;WANDSLInterfaceConfig&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+      &lt;/WANDSLInterfaceConfig&gt;
+      &lt;WANConnectionDevice instance="1"&gt;
+        &lt;WANIPConnectionNumberOfEntries&gt;0&lt;/WANIPConnectionNumberOfEntries&gt;
+        &lt;WANPPPConnectionNumberOfEntries&gt;1&lt;/WANPPPConnectionNumberOfEntries&gt;
+        &lt;WANDSLLinkConfig&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;LinkType&gt;PPPoA&lt;/LinkType&gt;
+          &lt;ATMEncapsulation&gt;VCMUX&lt;/ATMEncapsulation&gt;
+          &lt;X_BROADCOM_COM_GrpPrecedence&gt;4&lt;/X_BROADCOM_COM_GrpPrecedence&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;atm0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/WANDSLLinkConfig&gt;
+        &lt;WANPPPConnection instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;ConnectionType&gt;IP_Routed&lt;/ConnectionType&gt;
+          &lt;Name&gt;pppoa_0_35_0&lt;/Name&gt;
+          &lt;NATEnabled&gt;TRUE&lt;/NATEnabled&gt;
+          &lt;X_BROADCOM_COM_FirewallEnabled&gt;TRUE&lt;/X_BROADCOM_COM_FirewallEnabled&gt;
+          &lt;Username&gt;</value>
+  </data>
+  <data name="PPPoA_2" xml:space="preserve">
+    <value>&lt;/Username&gt;
+          &lt;Password&gt;</value>
+  </data>
+  <data name="PPPoA_3" xml:space="preserve">
+    <value>&lt;/Password&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;pppoa0&lt;/X_BROADCOM_COM_IfName&gt;
+          &lt;X_BROADCOM_COM_Enable_Debug&gt;TRUE&lt;/X_BROADCOM_COM_Enable_Debug&gt;
+          &lt;MTUSize&gt;1492&lt;/MTUSize&gt;
+          &lt;PPPLCPEcho&gt;30&lt;/PPPLCPEcho&gt;
+          &lt;PPPLCPEchoRetry&gt;3&lt;/PPPLCPEchoRetry&gt;
+          &lt;PortMappingNumberOfEntries&gt;0&lt;/PortMappingNumberOfEntries&gt;
+        &lt;/WANPPPConnection&gt;
+        &lt;WANPPPConnection nextInstance="2" &gt;&lt;/WANPPPConnection&gt;
+      &lt;/WANConnectionDevice&gt;
+      &lt;WANConnectionDevice nextInstance="2" &gt;&lt;/WANConnectionDevice&gt;
+    &lt;/WANDevice&gt;
+    &lt;Layer3Forwarding&gt;
+      &lt;ForwardNumberOfEntries&gt;0&lt;/ForwardNumberOfEntries&gt;
+    &lt;/Layer3Forwarding&gt;
+    &lt;X_BROADCOM_COM_NetworkConfig&gt;
+      &lt;DNSIfName&gt;pppoa0&lt;/DNSIfName&gt;
+    &lt;/X_BROADCOM_COM_NetworkConfig&gt;
+  &lt;/InternetGatewayDevice&gt;
+&lt;/DslCpeConfig&gt;</value>
+  </data>
+  <data name="PPPoA_TV_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;DslCpeConfig version="3.0"&gt;
+  &lt;InternetGatewayDevice&gt;
+    &lt;LANDeviceNumberOfEntries&gt;1&lt;/LANDeviceNumberOfEntries&gt;
+    &lt;WANDeviceNumberOfEntries&gt;1&lt;/WANDeviceNumberOfEntries&gt;
+    &lt;DeviceInfo&gt;
+      &lt;FirstUseDate&gt;0001-01-01T00:00:00Z&lt;/FirstUseDate&gt;
+      &lt;VendorConfigFileNumberOfEntries&gt;0&lt;/VendorConfigFileNumberOfEntries&gt;
+      &lt;ConfigCounter&gt;1&lt;/ConfigCounter&gt;
+    &lt;/DeviceInfo&gt;
+    &lt;X_BROADCOM_COM_EthernetSwitch&gt;
+      &lt;NumberOfVirtualPorts&gt;0&lt;/NumberOfVirtualPorts&gt;
+      &lt;IfName&gt;eth1&lt;/IfName&gt;
+    &lt;/X_BROADCOM_COM_EthernetSwitch&gt;
+    &lt;Layer2Bridging&gt;
+      &lt;BridgeNumberOfEntries&gt;1&lt;/BridgeNumberOfEntries&gt;
+      &lt;FilterNumberOfEntries&gt;3&lt;/FilterNumberOfEntries&gt;
+      &lt;MarkingNumberOfEntries&gt;0&lt;/MarkingNumberOfEntries&gt;
+      &lt;AvailableInterfaceNumberOfEntries&gt;3&lt;/AvailableInterfaceNumberOfEntries&gt;
+      &lt;Bridge instance="1"&gt;
+        &lt;BridgeKey&gt;0&lt;/BridgeKey&gt;
+        &lt;BridgeEnable&gt;TRUE&lt;/BridgeEnable&gt;
+        &lt;BridgeName&gt;Default&lt;/BridgeName&gt;
+      &lt;/Bridge&gt;
+      &lt;Bridge nextInstance="2" &gt;&lt;/Bridge&gt;
+      &lt;Filter instance="1"&gt;
+        &lt;FilterKey&gt;1&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;1&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter instance="2"&gt;
+        &lt;FilterKey&gt;2&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;2&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter instance="3"&gt;
+        &lt;FilterKey&gt;3&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;3&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter nextInstance="4" &gt;&lt;/Filter&gt;
+      &lt;AvailableInterface instance="1"&gt;
+        &lt;AvailableInterfaceKey&gt;1&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface instance="2"&gt;
+        &lt;AvailableInterfaceKey&gt;2&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface instance="3"&gt;
+        &lt;AvailableInterfaceKey&gt;3&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;WANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface nextInstance="4" &gt;&lt;/AvailableInterface&gt;
+    &lt;/Layer2Bridging&gt;
+    &lt;QueueManagement&gt;
+      &lt;ClassificationNumberOfEntries&gt;0&lt;/ClassificationNumberOfEntries&gt;
+      &lt;AppNumberOfEntries&gt;0&lt;/AppNumberOfEntries&gt;
+      &lt;FlowNumberOfEntries&gt;0&lt;/FlowNumberOfEntries&gt;
+      &lt;PolicerNumberOfEntries&gt;0&lt;/PolicerNumberOfEntries&gt;
+      &lt;QueueNumberOfEntries&gt;0&lt;/QueueNumberOfEntries&gt;
+    &lt;/QueueManagement&gt;
+    &lt;LANDevice instance="1"&gt;
+      &lt;LANEthernetInterfaceNumberOfEntries&gt;1&lt;/LANEthernetInterfaceNumberOfEntries&gt;
+      &lt;LANUSBInterfaceNumberOfEntries&gt;1&lt;/LANUSBInterfaceNumberOfEntries&gt;
+      &lt;LANWLANConfigurationNumberOfEntries&gt;0&lt;/LANWLANConfigurationNumberOfEntries&gt;
+      &lt;X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;0&lt;/X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;
+      &lt;LANHostConfigManagement&gt;
+        &lt;DHCPServerEnable&gt;TRUE&lt;/DHCPServerEnable&gt;
+        &lt;IPInterfaceNumberOfEntries&gt;1&lt;/IPInterfaceNumberOfEntries&gt;
+        &lt;IPInterface instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;br0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/IPInterface&gt;
+        &lt;IPInterface nextInstance="2" &gt;&lt;/IPInterface&gt;
+      &lt;/LANHostConfigManagement&gt;
+      &lt;LANEthernetInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;eth0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANEthernetInterfaceConfig nextInstance="2" &gt;&lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;usb0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANUSBInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig nextInstance="2" &gt;&lt;/LANUSBInterfaceConfig&gt;
+    &lt;/LANDevice&gt;
+    &lt;LANDevice nextInstance="2" &gt;&lt;/LANDevice&gt;
+    &lt;WANDevice instance="1"&gt;
+      &lt;WANConnectionNumberOfEntries&gt;2&lt;/WANConnectionNumberOfEntries&gt;
+      &lt;WANCommonInterfaceConfig&gt;
+        &lt;WANAccessType&gt;DSL&lt;/WANAccessType&gt;
+      &lt;/WANCommonInterfaceConfig&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="1"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="2"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="3"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="4"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" &gt;&lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;WANDSLInterfaceConfig&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+      &lt;/WANDSLInterfaceConfig&gt;
+      &lt;WANConnectionDevice instance="1"&gt;
+        &lt;WANIPConnectionNumberOfEntries&gt;0&lt;/WANIPConnectionNumberOfEntries&gt;
+        &lt;WANPPPConnectionNumberOfEntries&gt;1&lt;/WANPPPConnectionNumberOfEntries&gt;
+        &lt;WANDSLLinkConfig&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;LinkType&gt;PPPoA&lt;/LinkType&gt;
+          &lt;ATMEncapsulation&gt;VCMUX&lt;/ATMEncapsulation&gt;
+          &lt;X_BROADCOM_COM_GrpPrecedence&gt;4&lt;/X_BROADCOM_COM_GrpPrecedence&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;atm0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/WANDSLLinkConfig&gt;
+        &lt;WANPPPConnection instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;ConnectionType&gt;IP_Routed&lt;/ConnectionType&gt;
+          &lt;Name&gt;pppoa_0_35_0&lt;/Name&gt;
+          &lt;NATEnabled&gt;TRUE&lt;/NATEnabled&gt;
+          &lt;X_BROADCOM_COM_FirewallEnabled&gt;TRUE&lt;/X_BROADCOM_COM_FirewallEnabled&gt;
+          &lt;Username&gt;</value>
+  </data>
+  <data name="PPPoA_TV_2" xml:space="preserve">
+    <value>&lt;/Username&gt;
+          &lt;Password&gt;</value>
+  </data>
+  <data name="PPPoA_TV_3" xml:space="preserve">
+    <value>&lt;/Password&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;pppoa0&lt;/X_BROADCOM_COM_IfName&gt;
+          &lt;X_BROADCOM_COM_Enable_Debug&gt;TRUE&lt;/X_BROADCOM_COM_Enable_Debug&gt;
+          &lt;MTUSize&gt;1492&lt;/MTUSize&gt;
+          &lt;PPPLCPEcho&gt;30&lt;/PPPLCPEcho&gt;
+          &lt;PPPLCPEchoRetry&gt;3&lt;/PPPLCPEchoRetry&gt;
+          &lt;PortMappingNumberOfEntries&gt;0&lt;/PortMappingNumberOfEntries&gt;
+        &lt;/WANPPPConnection&gt;
+        &lt;WANPPPConnection nextInstance="2" &gt;&lt;/WANPPPConnection&gt;
+      &lt;/WANConnectionDevice&gt;
+      &lt;WANConnectionDevice instance="2"&gt;
+        &lt;WANIPConnectionNumberOfEntries&gt;1&lt;/WANIPConnectionNumberOfEntries&gt;
+        &lt;WANPPPConnectionNumberOfEntries&gt;0&lt;/WANPPPConnectionNumberOfEntries&gt;
+        &lt;WANDSLLinkConfig&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;LinkType&gt;EoA&lt;/LinkType&gt;
+          &lt;DestinationAddress&gt;PVC: 0/38&lt;/DestinationAddress&gt;
+          &lt;X_BROADCOM_COM_GrpPrecedence&gt;4&lt;/X_BROADCOM_COM_GrpPrecedence&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;atm1&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/WANDSLLinkConfig&gt;
+        &lt;WANIPConnection instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;ConnectionType&gt;IP_Bridged&lt;/ConnectionType&gt;
+          &lt;Name&gt;bridge_0_38_0&lt;/Name&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;atm1&lt;/X_BROADCOM_COM_IfName&gt;
+          &lt;PortMappingNumberOfEntries&gt;0&lt;/PortMappingNumberOfEntries&gt;
+        &lt;/WANIPConnection&gt;
+        &lt;WANIPConnection nextInstance="2" &gt;&lt;/WANIPConnection&gt;
+      &lt;/WANConnectionDevice&gt;
+      &lt;WANConnectionDevice nextInstance="3" &gt;&lt;/WANConnectionDevice&gt;
+    &lt;/WANDevice&gt;
+    &lt;Layer3Forwarding&gt;
+      &lt;ForwardNumberOfEntries&gt;0&lt;/ForwardNumberOfEntries&gt;
+    &lt;/Layer3Forwarding&gt;
+    &lt;X_BROADCOM_COM_NetworkConfig&gt;
+      &lt;DNSIfName&gt;pppoa0&lt;/DNSIfName&gt;
+    &lt;/X_BROADCOM_COM_NetworkConfig&gt;
+  &lt;/InternetGatewayDevice&gt;
+&lt;/DslCpeConfig&gt;</value>
+  </data>
+  <data name="PPPoE_1" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;DslCpeConfig version="3.0"&gt;
+  &lt;InternetGatewayDevice&gt;
+    &lt;LANDeviceNumberOfEntries&gt;1&lt;/LANDeviceNumberOfEntries&gt;
+    &lt;WANDeviceNumberOfEntries&gt;1&lt;/WANDeviceNumberOfEntries&gt;
+    &lt;DeviceInfo&gt;
+      &lt;FirstUseDate&gt;0001-01-01T00:00:00Z&lt;/FirstUseDate&gt;
+      &lt;VendorConfigFileNumberOfEntries&gt;0&lt;/VendorConfigFileNumberOfEntries&gt;
+      &lt;ConfigCounter&gt;1&lt;/ConfigCounter&gt;
+    &lt;/DeviceInfo&gt;
+    &lt;X_BROADCOM_COM_EthernetSwitch&gt;
+      &lt;NumberOfVirtualPorts&gt;0&lt;/NumberOfVirtualPorts&gt;
+      &lt;IfName&gt;eth1&lt;/IfName&gt;
+    &lt;/X_BROADCOM_COM_EthernetSwitch&gt;
+    &lt;Layer2Bridging&gt;
+      &lt;BridgeNumberOfEntries&gt;1&lt;/BridgeNumberOfEntries&gt;
+      &lt;FilterNumberOfEntries&gt;3&lt;/FilterNumberOfEntries&gt;
+      &lt;MarkingNumberOfEntries&gt;0&lt;/MarkingNumberOfEntries&gt;
+      &lt;AvailableInterfaceNumberOfEntries&gt;3&lt;/AvailableInterfaceNumberOfEntries&gt;
+      &lt;Bridge instance="1"&gt;
+        &lt;BridgeKey&gt;0&lt;/BridgeKey&gt;
+        &lt;BridgeEnable&gt;TRUE&lt;/BridgeEnable&gt;
+        &lt;BridgeName&gt;Default&lt;/BridgeName&gt;
+      &lt;/Bridge&gt;
+      &lt;Bridge nextInstance="2" &gt;&lt;/Bridge&gt;
+      &lt;Filter instance="1"&gt;
+        &lt;FilterKey&gt;1&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;1&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter instance="2"&gt;
+        &lt;FilterKey&gt;2&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;2&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter instance="3"&gt;
+        &lt;FilterKey&gt;3&lt;/FilterKey&gt;
+        &lt;FilterEnable&gt;TRUE&lt;/FilterEnable&gt;
+        &lt;FilterBridgeReference&gt;0&lt;/FilterBridgeReference&gt;
+        &lt;FilterInterface&gt;3&lt;/FilterInterface&gt;
+      &lt;/Filter&gt;
+      &lt;Filter nextInstance="4" &gt;&lt;/Filter&gt;
+      &lt;AvailableInterface instance="1"&gt;
+        &lt;AvailableInterfaceKey&gt;1&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface instance="2"&gt;
+        &lt;AvailableInterfaceKey&gt;2&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;LANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface instance="3"&gt;
+        &lt;AvailableInterfaceKey&gt;3&lt;/AvailableInterfaceKey&gt;
+        &lt;InterfaceType&gt;WANInterface&lt;/InterfaceType&gt;
+        &lt;InterfaceReference&gt;InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1&lt;/InterfaceReference&gt;
+      &lt;/AvailableInterface&gt;
+      &lt;AvailableInterface nextInstance="4" &gt;&lt;/AvailableInterface&gt;
+    &lt;/Layer2Bridging&gt;
+    &lt;QueueManagement&gt;
+      &lt;ClassificationNumberOfEntries&gt;0&lt;/ClassificationNumberOfEntries&gt;
+      &lt;AppNumberOfEntries&gt;0&lt;/AppNumberOfEntries&gt;
+      &lt;FlowNumberOfEntries&gt;0&lt;/FlowNumberOfEntries&gt;
+      &lt;PolicerNumberOfEntries&gt;0&lt;/PolicerNumberOfEntries&gt;
+      &lt;QueueNumberOfEntries&gt;0&lt;/QueueNumberOfEntries&gt;
+    &lt;/QueueManagement&gt;
+    &lt;LANDevice instance="1"&gt;
+      &lt;LANEthernetInterfaceNumberOfEntries&gt;1&lt;/LANEthernetInterfaceNumberOfEntries&gt;
+      &lt;LANUSBInterfaceNumberOfEntries&gt;1&lt;/LANUSBInterfaceNumberOfEntries&gt;
+      &lt;LANWLANConfigurationNumberOfEntries&gt;0&lt;/LANWLANConfigurationNumberOfEntries&gt;
+      &lt;X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;0&lt;/X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries&gt;
+      &lt;LANHostConfigManagement&gt;
+        &lt;DHCPServerEnable&gt;TRUE&lt;/DHCPServerEnable&gt;
+        &lt;IPInterfaceNumberOfEntries&gt;1&lt;/IPInterfaceNumberOfEntries&gt;
+        &lt;IPInterface instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;br0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/IPInterface&gt;
+        &lt;IPInterface nextInstance="2" &gt;&lt;/IPInterface&gt;
+      &lt;/LANHostConfigManagement&gt;
+      &lt;LANEthernetInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;eth0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANEthernetInterfaceConfig nextInstance="2" &gt;&lt;/LANEthernetInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig instance="1"&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+        &lt;X_BROADCOM_COM_IfName&gt;usb0&lt;/X_BROADCOM_COM_IfName&gt;
+      &lt;/LANUSBInterfaceConfig&gt;
+      &lt;LANUSBInterfaceConfig nextInstance="2" &gt;&lt;/LANUSBInterfaceConfig&gt;
+    &lt;/LANDevice&gt;
+    &lt;LANDevice nextInstance="2" &gt;&lt;/LANDevice&gt;
+    &lt;WANDevice instance="1"&gt;
+      &lt;WANConnectionNumberOfEntries&gt;1&lt;/WANConnectionNumberOfEntries&gt;
+      &lt;WANCommonInterfaceConfig&gt;
+        &lt;WANAccessType&gt;DSL&lt;/WANAccessType&gt;
+      &lt;/WANCommonInterfaceConfig&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="1"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="2"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="3"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats instance="4"&gt;
+      &lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" &gt;&lt;/X_BROADCOM_COM_XTM_Interface_Stats&gt;
+      &lt;WANDSLInterfaceConfig&gt;
+        &lt;Enable&gt;TRUE&lt;/Enable&gt;
+      &lt;/WANDSLInterfaceConfig&gt;
+      &lt;WANConnectionDevice instance="1"&gt;
+        &lt;WANIPConnectionNumberOfEntries&gt;0&lt;/WANIPConnectionNumberOfEntries&gt;
+        &lt;WANPPPConnectionNumberOfEntries&gt;1&lt;/WANPPPConnectionNumberOfEntries&gt;
+        &lt;WANDSLLinkConfig&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;LinkType&gt;EoA&lt;/LinkType&gt;
+          &lt;X_BROADCOM_COM_GrpPrecedence&gt;4&lt;/X_BROADCOM_COM_GrpPrecedence&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;atm0&lt;/X_BROADCOM_COM_IfName&gt;
+        &lt;/WANDSLLinkConfig&gt;
+        &lt;WANPPPConnection instance="1"&gt;
+          &lt;Enable&gt;TRUE&lt;/Enable&gt;
+          &lt;ConnectionType&gt;IP_Routed&lt;/ConnectionType&gt;
+          &lt;Name&gt;pppoe_0_35_0&lt;/Name&gt;
+          &lt;NATEnabled&gt;TRUE&lt;/NATEnabled&gt;
+          &lt;X_BROADCOM_COM_FirewallEnabled&gt;TRUE&lt;/X_BROADCOM_COM_FirewallEnabled&gt;
+          &lt;Username&gt;</value>
+  </data>
+  <data name="PPPoE_2" xml:space="preserve">
+    <value>&lt;/Username&gt;
+          &lt;Password&gt;</value>
+  </data>
+  <data name="PPPoE_3" xml:space="preserve">
+    <value>&lt;/Password&gt;
+          &lt;X_BROADCOM_COM_IfName&gt;ppp1&lt;/X_BROADCOM_COM_IfName&gt;
+          &lt;X_BROADCOM_COM_Enable_Debug&gt;TRUE&lt;/X_BROADCOM_COM_Enable_Debug&gt;
+          &lt;MTUSize&gt;1492&lt;/MTUSize&gt;
+          &lt;PPPLCPEcho&gt;30&lt;/PPPLCPEcho&gt;
+          &lt;PPPLCPEchoRetry&gt;3&lt;/PPPLCPEchoRetry&gt;
+          &lt;PortMappingNumberOfEntries&gt;0&lt;/PortMappingNumberOfEntries&gt;
+        &lt;/WANPPPConnection&gt;
+        &lt;WANPPPConnection nextInstance="2" &gt;&lt;/WANPPPConnection&gt;
+      &lt;/WANConnectionDevice&gt;
+      &lt;WANConnectionDevice nextInstance="2" &gt;&lt;/WANConnectionDevice&gt;
+    &lt;/WANDevice&gt;
+    &lt;Layer3Forwarding&gt;
+      &lt;ForwardNumberOfEntries&gt;0&lt;/ForwardNumberOfEntries&gt;
+    &lt;/Layer3Forwarding&gt;
+    &lt;X_BROADCOM_COM_NetworkConfig&gt;
+      &lt;DNSIfName&gt;ppp1&lt;/DNSIfName&gt;
+    &lt;/X_BROADCOM_COM_NetworkConfig&gt;
+  &lt;/InternetGatewayDevice&gt;
+&lt;/DslCpeConfig&gt;</value>
+  </data>
+</root>
